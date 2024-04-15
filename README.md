@@ -47,5 +47,5 @@ Wake up | GPIO13 | Input
 
 In order to reduce the power consumption of the ESP32-CAM the following points can be done:
 
-- Leave `void loop()` empty, even if code is inplemented there the PC won't get to the main loop.
+- Leave `void loop()` empty, even if code is implemented there the PC won't get to the main loop.
 - Reducing CPU frequency after WiFi stuff is completed (crystal is 240MHz): `setCpuFrequencyMhz(40); //reduce to 40MHz`, this step is not quite necessary because after the WiFi connection it sends the picture and goes back to sleep.
