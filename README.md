@@ -18,7 +18,7 @@ The ESP32-CAM is set to be in deep sleep all the time, that is the reason it doe
 
 ## Connection scheme
 
-
+TBA
 
 ## GPIOs
 
